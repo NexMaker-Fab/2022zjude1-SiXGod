@@ -10,7 +10,7 @@
     * [王翌诚](teamintro/wyc.md)
     * [罗成](teamintro/lc.md)
   
-    * 团队信息
+ * 团队信息
     * [团队介绍](teamintro/team.md)
     * [张怡卿](teamintro/zyq.md)
     * [冯源](teamintro/fy.md)
