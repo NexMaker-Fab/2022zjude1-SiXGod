@@ -3,6 +3,6 @@
 > poject
 
 
-  Hello sixgods group
+  Hello SIXGOD group
 
   [>>操作指南](guide)

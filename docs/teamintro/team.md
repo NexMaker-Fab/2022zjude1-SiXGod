@@ -1,4 +1,4 @@
-# SIXGODS
+# SIXGOD
 
 ## 介绍
 
