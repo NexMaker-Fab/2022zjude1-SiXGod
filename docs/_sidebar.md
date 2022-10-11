@@ -2,8 +2,6 @@
 * [Guide](guide)
 
 * [团队信息](teamintro/member.md)
-  * [团队介绍]
-  * [成员图鉴]
 
 * 平时作业
   * 项目管理
