@@ -1,13 +1,8 @@
 <!-- _coverpage.md -->
 
-![logo](logo1.png)
+![logo](logo1.jpg)
 
 # SIXGOD <small>1.0</small>
 
-> 六边形战士
-
-- XXX
-- XXX
-- XXX
 
 [Get Started](README)
