@@ -1,15 +1,39 @@
 # SixGod团队成员介绍
 ----------
 
-### 冯源
-![alt 哎呀！图挂了！](pic/meme1.JPG)
-###### 本科毕业于浙江大学数字媒体技术系，精通C++、Python、Java的阅读，熟悉PS、AI、PR的安装。现于浙江大学软件学院攻读工业设计工程硕士学位，未来希望能够从事音乐交互与体验设计方向的研究。
+### 张怡卿
 
-> 联系方式：fyuan2000@outlook.com
+> 联系方式：
+
+----------
+### 冯源：薯条小朋友的互联网母亲
+
+<img src="https://github.com/Fy1307/IMGofSixGod/blob/master/img/fy.JPG?raw=true" width = "400" height = "400" div align= 'center' />
+
+> 联系方式：fyuan2000@outlook.com 
 
 ----------
 
-### 冯源
-![alt 哎呀！图挂了！](pic/meme1.JPG)
-###### 本科毕业于浙江大学数字媒体技术系，精通C++、Python、Java的阅读，熟悉PS、AI、PR的安装。现于浙江大学软件学院攻读工业设计工程硕士学位，未来希望能够从事音乐交互与体验设计方向的研究。
-> 联系方式：fyuan2000@outlook.com
+### 倪雪儿：一个爱狗人士
+
+<img src="https://github.com/Fy1307/IMGofSixGod/blob/master/img/nxe.jpg?raw=true" width = "400" height = "400" div align= 'center' />
+
+> 联系方式：15355081400
+
+----------
+
+### 黄时超
+
+> 联系方式：
+
+----------
+
+### 王翌诚
+
+> 联系方式：
+
+----------
+
+### 罗成
+
+> 联系方式：
