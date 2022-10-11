@@ -3,18 +3,8 @@
 
 * 团队信息
     * [团队介绍](teamintro/team.md)
-    * [张怡卿](teamintro/zyq.md)
-    * [冯源](teamintro/fy.md)
-    * [倪雪儿](teamintro/nxe.md)
-    * [黄时超](teamintro/hsc.md)
-    * [王翌诚](teamintro/wyc.md)
-    * [罗成](teamintro/lc.md)
+    * [成员介绍](teamintro/member.md)
   
- * 团队信息
-    * [团队介绍](teamintro/team.md)
-    * [张怡卿](teamintro/zyq.md)
-    * [冯源](teamintro/fy.md)
-    * [倪雪儿](teamintro/nxe.md)
-    * [黄时超](teamintro/hsc.md)
-    * [王翌诚](teamintro/wyc.md)
-    * [罗成](teamintro/lc.md)
+ * 如何构建一个网页
+   * [构建流程](webbulid/webbuild.md)
+   * [问题解决](webbulid/problem.md)
