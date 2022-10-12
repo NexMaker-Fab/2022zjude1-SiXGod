@@ -1,5 +1,4 @@
 * [Home](/)
-* [Guide](guide)
 
 * 团队信息
   * [团队介绍](teamintro/member.md)
