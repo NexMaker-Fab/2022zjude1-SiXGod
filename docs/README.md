@@ -1,8 +1,4 @@
-# SIXGODS
-
-> poject
+# Hi，大家好！这里是SixGod👋
 
 
-  Hello SIXGOD group
-
-  [>>操作指南](guide)
+这是一个呈现设计工程学阶段性阶段性成果和最终作业的网站，请见证我们的成长吧！
