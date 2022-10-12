@@ -36,9 +36,10 @@
 
 ----------
 
-### 王翌诚
+### 王翌诚：这个人很懒~什么都没写。
+<img src="https://github.com/Fy1307/IMGofSixGod/blob/master/img/wyc.jpg?raw=true" width = "350" height = "350" div align= 'center' />
 
-> 联系方式：
+> 联系方式：3512858238@qq.com
 
 ----------
 
