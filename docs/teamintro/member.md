@@ -1,10 +1,6 @@
 # Hi，大家好！这里是SixGod👋
 
-##### 六神团队介绍...
-##### 假装有很多字...
-##### 假装有很多字...
-##### 假装有很多字...
-##### 假装有很多字...
+### 六神——来自浙软的神秘力量✌️
 
 ----------
 
@@ -17,7 +13,7 @@
 > 联系方式：zhangyq_0915@163.com
 
 ----------
-### 冯源：薯条小朋友的互联网母亲🍟
+### 冯源：薯条小朋友的互联网妈咪🍟
 
 <img src="https://github.com/Fy1307/IMGofSixGod/blob/master/img/fy.JPG?raw=true" width = "350" height = "350" div align= 'center' />
 
@@ -33,9 +29,10 @@
 
 ----------
 
-### 黄时超
+### 黄时超：篮球爱好者🏀
+<img src="https://github.com/Fy1307/IMGofSixGod/blob/master/img/hsc.jpg?raw=true" width = "350" height = "350" div align= 'center' />
 
-> 联系方式：
+> 联系方式：18970939502
 
 ----------
 
@@ -45,6 +42,8 @@
 
 ----------
 
-### 罗成
+### 罗成：爱学习的小哥哥一枚呀～🙆🏻‍♂️
 
-> 联系方式：
+<img src="https://github.com/Fy1307/IMGofSixGod/blob/master/img/lc.jpg?raw=true" width = "350" height = "350" div align= 'center' />
+
+> 联系方式：1157445099@qq.com
