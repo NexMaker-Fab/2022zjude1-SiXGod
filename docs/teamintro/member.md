@@ -29,7 +29,7 @@
 
 ----------
 
-### 黄时超：篮球爱好者🏀
+### 黄时超：篮球、健身爱好者🏀
 <img src="https://github.com/Fy1307/IMGofSixGod/blob/master/img/hsc.jpg?raw=true" width = "350" height = "350" div align= 'center' />
 
 > 联系方式：18970939502
