@@ -5,4 +5,4 @@
 # SIXGOD <small>1.0</small>
 
 
-[Get Started](README)
+[Get Started](teamintro/member.md)
