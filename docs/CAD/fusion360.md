@@ -3,11 +3,39 @@
 Fusion 360 是一款基于远程服务的三维建模、CAD、CAM、CAE 和 PCB 软件平台，主要用于产品设计和制造。本组所有人都是第一次接触这个软件，最初都觉得有些不习惯，但是慢慢地就感觉到了这个新生建模软件的优越性。
 
 ### 1  第一个3D模型的诞生
+● 新建零部件，分别重命名，汽缸示意图共分为6个——摇杆、活塞、偏心轴、偏心轴座、汽缸、销
+<img src="https://github.com/Fy1307/IMGofSixGod/blob/master/img/FU1.png?raw=true" width = "1000" div align= 'center' /><br><br/>
 
+● 在对应的零部件中，创建草图
+<img src="https://github.com/Fy1307/IMGofSixGod/blob/master/img/FU2.png?raw=true" width = "1000" div align= 'center' /><br><br/>
+
+● 选择对应的草图，在“修改”栏中选择“推拉”，从草图生成实体
+<img src="https://github.com/Fy1307/IMGofSixGod/blob/master/img/FU3.png?raw=true" width = "1000" div align= 'center' /><br><br/>
+
+<img src="https://github.com/Fy1307/IMGofSixGod/blob/master/img/FU4.png?raw=true" width = "1000" div align= 'center' /><br><br/>
+
+● 选择对应“实体”，右键“从实体创建零部件”，为后续的“装配”环节做准备。待六个模型部分全部转化为零部件后，提前思考并确定各部分的装配关系与参考轴走向，例如：沿x/y/z轴形成滑块、旋转、刚性关系等。
+<img src="https://github.com/Fy1307/IMGofSixGod/blob/master/img/FU5.png?raw=true" width = "1000" div align= 'center' /><br><br/>
+
+● 在“装配”栏中选择“联接原点”，分别确定各部件的装配基准点，并进行厚度偏移
+<img src="https://github.com/Fy1307/IMGofSixGod/blob/master/img/FU6.png?raw=true" width = "1000" div align= 'center' /><br><br/>
+<img src="https://github.com/Fy1307/IMGofSixGod/blob/master/img/FU7.png?raw=true" width = "1000" div align= 'center' /><br><br/>
+
+● 设定完所有的“联接原点”后，选择装配中的“联接”，将各六个部分两两配合，例如：活塞和汽缸以各自顶部的联接点为基准，沿着Z轴形成滑动关系
+<img src="https://github.com/Fy1307/IMGofSixGod/blob/master/img/FU8.png?raw=true" width = "1000" div align= 'center' /><br><br/>
+<img src="https://github.com/Fy1307/IMGofSixGod/blob/master/img/FU9.png?raw=true" width = "1000" div align= 'center' /><br><br/>
+
+● 完成所有部件的“装配联接”后，须确定部件的“刚性组”，在本案例中选择“汽缸”和“偏心轴座”为刚性组
+<img src="https://github.com/Fy1307/IMGofSixGod/blob/master/img/FU10.png?raw=true" width = "1000" div align= 'center' /><br><br/>
+<img src="https://github.com/Fy1307/IMGofSixGod/blob/master/img/FU11.png?raw=true" width = "1000" div align= 'center' /><br><br/>
+
+● 点击“偏心轴”与“偏心轴座”的旋转联接标记，即可调整不同的转动角度，带动整个汽缸进行活塞运动
+<img src="https://github.com/Fy1307/IMGofSixGod/blob/master/img/FU12.png?raw=true" width = "1000" div align= 'center' /><br><br/>
+<img src="https://github.com/Fy1307/IMGofSixGod/blob/master/img/FU13.png?raw=true" width = "1000" div align= 'center' /><br><br/>
+<img src="https://github.com/Fy1307/IMGofSixGod/blob/master/img/FU14.png?raw=true" width = "1000" div align= 'center' /><br><br/>
+
+● 最终效果
 <iframe src="https://myhub.autodesk360.com/ue28cacf9/shares/public/SH35dfcQT936092f0e4347a820aaecd0cf0f?mode=embed" width="800" height="600" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
-<img src="https://github.com/Fy1307/IMGofSixGod/blob/master/img/FusionFinal.jpg?raw=true" width = "1000" div align= 'center' /><br><br/>
-
-### 2  其他CAD软件经验介绍
-
-### 3  参考
+### 2  参考
+[Fusion360活塞建模教程](https://www.youtube.com/watch?v=62XqdYv7pWs)
