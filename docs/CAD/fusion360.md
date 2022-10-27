@@ -3,6 +3,7 @@
 Fusion 360 是一款基于远程服务的三维建模、CAD、CAM、CAE 和 PCB 软件平台，主要用于产品设计和制造。本组所有人都是第一次接触这个软件，最初都觉得有些不习惯，但是慢慢地就感觉到了这个新生建模软件的优越性。
 
 ### 1  第一个3D模型的诞生
+##### 1.1 详细建模过程
 ● 新建零部件，分别重命名，汽缸示意图共分为6个——摇杆、活塞、偏心轴、偏心轴座、汽缸、销
 <img src="https://github.com/Fy1307/IMGofSixGod/blob/master/img/FU1.png?raw=true" width = "1000" div align= 'center' /><br><br/>
 
@@ -34,7 +35,17 @@ Fusion 360 是一款基于远程服务的三维建模、CAD、CAM、CAE 和 PCB 
 <img src="https://github.com/Fy1307/IMGofSixGod/blob/master/img/FU13.png?raw=true" width = "1000" div align= 'center' /><br><br/>
 <img src="https://github.com/Fy1307/IMGofSixGod/blob/master/img/FU14.png?raw=true" width = "1000" div align= 'center' /><br><br/>
 
-● 最终效果
+● 点击“偏心轴”与“偏心轴座”的旋转联接标记，即可调整不同的转动角度，带动整个汽缸进行活塞运动
+
+##### 1.2 建模过程动画
+<img src="https://github.com/Fy1307/IMGofSixGod/blob/master/img/PisonProcess2.GIF?raw=true" width = "1000" div align= 'center' /><br><br/>
+<img src="https://github.com/Fy1307/IMGofSixGod/blob/master/img/PisonProcess1.GIF?raw=true" width = "1000" div align= 'center' /><br><br/>
+
+
+
+##### 1.3 最终效果
+<img src="https://github.com/Fy1307/IMGofSixGod/blob/master/img/Piston.GIF?raw=true" width = "1000" div align= 'center' /><br><br/>
+
 <iframe src="https://myhub.autodesk360.com/ue28cacf9/shares/public/SH35dfcQT936092f0e4347a820aaecd0cf0f?mode=embed" width="800" height="600" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
 ### 2  参考
