@@ -1,4 +1,4 @@
-* [Home](/)
+<div align='center' ><font size='24'>目录</font></div>
 
 * 团队信息
   * [团队介绍](teamintro/member.md)

@@ -18,3 +18,4 @@
 
 ### 3  参考
 [封面美化方式](https://www.jianshu.com/p/38b6f67c6837)
+[侧边栏折叠](https://github.com/iPeng6/docsify-sidebar-collapse)
