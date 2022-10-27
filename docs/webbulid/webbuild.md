@@ -51,7 +51,42 @@
 
 ● 设置index.html和侧边栏
 index.html的代码内容如下：
-<img src="https://github.com/Fy1307/IMGofSixGod/blob/master/img/webbuild3-3.png?raw=true" width = "1000" div align= 'center' /><br><br/>
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/themes/vue.css" />
+  <title>SIXGOD</title>
+  <link rel="icon" type="image/png" href="https://github.com/Fy1307/IMGofSixGod/
+  blob/master/img/Favicon.png?raw=true" >
+  <!-- Theme: Simple Dark 
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css">
+  -->
+</head>
+<body>
+  <nav>
+    <a href="#/teamintro/member">团队信息</a>
+    <a href="#/webbulid/webbuild">平时作业</a>
+    <a href="#/webbuild/webbuild.md">期末项目</a>
+  </nav>>
+  <div id="app"></div>
+  <script>
+    window.$docsify = {
+        loadSidebar: true,
+        coverpage: true,
+        onlyCover: true,
+  }
+
+  </script>
+  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+</body>
+</html>
+```
+
 然后在docs文件夹里新建一个空文件".nojekyll"，它的作用是防止docsify忽略"_"开头的的文件。此后新建"_sidebar.md"，在里面输入侧边栏的内容。
 
 ##### 3.3 上传到GitHub
