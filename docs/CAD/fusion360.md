@@ -50,5 +50,13 @@ Fusion 360 是一款基于远程服务的三维建模、CAD、CAM、CAE 和 PCB 
 
 <iframe src="https://myhub.autodesk360.com/ue28cacf9/shares/public/SH35dfcQT936092f0e4347a820aaecd0cf0f?mode=embed" width="800" height="600" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
+
 ### 2  参考
-[Fusion360活塞建模教程](https://www.youtube.com/watch?v=62XqdYv7pWs)
+ProE是美国参数技术公司的重要产品，在三维造型软件领域中占有着重要地位，是现今主流的模具和产品设计三维CAD/CAM软件之一。
+ProE第一个提出了参数化设计的概念，并且采用了单一数据库来解决特征的相关性问题。另外，它采用模块化方式，用户可以根据自身的需要进行选择，而不必安装所有模块。Pro/E的基于特征方式，能够将设计至生产全过程集成到一起，实现并行工程设计。
+
+<img src="https://github.com/Fy1307/IMGofSixGod/blob/master/img/ProE.jpg?raw=true" width = "1000" div align= 'center' /><br><br/>
+
+### 3  参考
+[Fusion360活塞建模教程](https://www.youtube.com/watch?v=62XqdYv7pWs)  
+[ProE介绍](https://baike.baidu.com/reference/49241726c08j20UHV0JtDD2doRGdAkLi_wFFRSTJR8ap1lom0i0AnlPhgYQVKk2NVeZ10_UHWo3DL_2xmjkbe2dTbZCuW2aGAk)
