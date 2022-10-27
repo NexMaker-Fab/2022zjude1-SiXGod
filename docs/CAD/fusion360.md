@@ -35,7 +35,7 @@ Fusion 360 是一款基于远程服务的三维建模、CAD、CAM、CAE 和 PCB 
 <img src="https://github.com/Fy1307/IMGofSixGod/blob/master/img/FU13.png?raw=true" width = "1000" div align= 'center' /><br><br/>
 <img src="https://github.com/Fy1307/IMGofSixGod/blob/master/img/FU14.png?raw=true" width = "1000" div align= 'center' /><br><br/>
 
-● 点击“偏心轴”与“偏心轴座”的旋转联接标记，即可调整不同的转动角度，带动整个汽缸进行活塞运动
+
 
 #### 1.2 建模过程动画
 <img src="https://github.com/Fy1307/IMGofSixGod/blob/master/img/PisonProcess2.GIF?raw=true" width = "1000" div align= 'center' /><br><br/>
