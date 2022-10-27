@@ -16,19 +16,19 @@
 
 ##### 2.2 网页部署 
 在GitHub上部署属于团队的网页，在这一步我们获得了一个空白网页和它的链接。
-<img src="https://github.com/Fy1307/IMGofSixGod/blob/master/img/webuild2-1.png?raw=true" width = "800" div align= 'center' /><br><br/>
+<img src="https://github.com/Fy1307/IMGofSixGod/blob/master/img/webuild2-1.png?raw=true" width = "1000" div align= 'center' /><br><br/>
 
-<img src="https://github.com/Fy1307/IMGofSixGod/blob/master/img/webuild2-2.png?raw=true" width = "800" div align= 'center' /><br><br/>
+<img src="https://github.com/Fy1307/IMGofSixGod/blob/master/img/webuild2-2.png?raw=true" width = "1000" div align= 'center' /><br><br/>
 
-<img src="https://github.com/Fy1307/IMGofSixGod/blob/master/img/webuild2-3.png?raw=true" width = "800" div align= 'center' /><br><br/>
+<img src="https://github.com/Fy1307/IMGofSixGod/blob/master/img/webuild2-3.png?raw=true" width = "1000" div align= 'center' /><br><br/>
 
 
 ### 3  本地设置
 ##### 3.1 克隆网页文件到本地
 每次修改网页文件内容之前都需要先将最新版的网页文件克隆到本地，GitHub Desktop提供了这一功能，让操作变得非常简单。
-<img src="https://github.com/Fy1307/IMGofSixGod/blob/master/img/webuild3-1.png?raw=true" width = "800" div align= 'center' /><br><br/>
+<img src="https://github.com/Fy1307/IMGofSixGod/blob/master/img/webuild3-1.png?raw=true" width = "1000" div align= 'center' /><br><br/>
 
-<img src="https://github.com/Fy1307/IMGofSixGod/blob/master/img/webuild3-2.png?raw=true" width = "800" div align= 'center' /><br><br/>
+<img src="https://github.com/Fy1307/IMGofSixGod/blob/master/img/webuild3-2.png?raw=true" width = "1000" div align= 'center' /><br><br/>
 
 ##### 3.2 使用Docsify编辑网页
 ● 在安装Docsify之前请确定已经安装了nodejs。  
@@ -51,14 +51,14 @@
 
 ● 设置index.html和侧边栏
 index.html的代码内容如下：
-<img src="https://github.com/Fy1307/IMGofSixGod/blob/master/img/webbuild3-3.png?raw=true" width = "800" div align= 'center' /><br><br/>
+<img src="https://github.com/Fy1307/IMGofSixGod/blob/master/img/webbuild3-3.png?raw=true" width = "1000" div align= 'center' /><br><br/>
 然后在docs文件夹里新建一个空文件".nojekyll"，它的作用是防止docsify忽略"_"开头的的文件。此后新建"_sidebar.md"，在里面输入侧边栏的内容。
 
 ##### 3.3 上传到GitHub
 用GitHub Desktop上传变更并在GitHub上查看网页结果。
-<img src="https://github.com/Fy1307/IMGofSixGod/blob/master/img/webuild3-4.png?raw=true" width = "800" div align= 'center' /><br><br/>
+<img src="https://github.com/Fy1307/IMGofSixGod/blob/master/img/webuild3-4.png?raw=true" width = "1000" div align= 'center' /><br><br/>
 
-<img src="https://github.com/Fy1307/IMGofSixGod/blob/master/img/webuild3-5.png?raw=true" width = "800" div align= 'center' /><br><br/>
+<img src="https://github.com/Fy1307/IMGofSixGod/blob/master/img/webuild3-5.png?raw=true" width = "1000" div align= 'center' /><br><br/>
 
 ##### 3.4 网页图片资源管理
 为了减小网页文件所占空间，我们采用GitHub+PicGo的方式将文件上传至我们的图片仓库，并在网页文件中直接引用图片地址。
@@ -66,11 +66,11 @@ index.html的代码内容如下：
 
 ● 配置PicGo
 密钥可由GitHub生成，具体参见[密钥生成](https://www.nexmaker.com/doc/1projectmanage/imageuploadservice.html)
-<img src="https://github.com/Fy1307/IMGofSixGod/blob/master/img/PicGoConfig.png?raw=true" width = "800" div align= 'center' /><br><br/>
+<img src="https://github.com/Fy1307/IMGofSixGod/blob/master/img/PicGoConfig.png?raw=true" width = "1000" div align= 'center' /><br><br/>
 
 ● 调用图片网址
 在图片仓库获得需要引用的图片地址就可以在md文档中插入图片了。
-<img src="https://github.com/Fy1307/IMGofSixGod/blob/master/img/usepic.png?raw=true" width = "800" div align= 'center' /><br><br/>
+<img src="https://github.com/Fy1307/IMGofSixGod/blob/master/img/usepic.png?raw=true" width = "1000" div align= 'center' /><br><br/>
 
 ### 4  问题解决
 ##### 4.1 Docsify在Macbook(M1)的下载和运行问题
@@ -82,7 +82,7 @@ index.html的代码内容如下：
 
 ##### 4.2 网页文件结构变化后上传github的问题
 GitHub Desktop不能对所有改变一次性提交，因此必须单选才能提交。
-<img src="https://github.com/Fy1307/IMGofSixGod/blob/master/img/problem2.png?raw=true" width = "800" div align= 'center' /><br><br/>
+<img src="https://github.com/Fy1307/IMGofSixGod/blob/master/img/problem2.png?raw=true" width = "1000" div align= 'center' /><br><br/>
 上传后需要等待片刻才能在GitHub上看到网页的改变。
 
 ### 5  参考
