@@ -11,10 +11,10 @@
 
 
 ### 2  网页设置
-##### 2.1 建立团队仓库  
+#### 2.1 建立团队仓库  
 建立一个属于团队的仓库，这一步由老师完成。  
 
-##### 2.2 网页部署 
+#### 2.2 网页部署 
 在GitHub上部署属于团队的网页，在这一步我们获得了一个空白网页和它的链接。
 <img src="https://github.com/Fy1307/IMGofSixGod/blob/master/img/webuild2-1.png?raw=true" width = "1000" div align= 'center' /><br><br/>
 
@@ -24,13 +24,13 @@
 
 
 ### 3  本地设置
-##### 3.1 克隆网页文件到本地
+#### 3.1 克隆网页文件到本地
 每次修改网页文件内容之前都需要先将最新版的网页文件克隆到本地，GitHub Desktop提供了这一功能，让操作变得非常简单。
 <img src="https://github.com/Fy1307/IMGofSixGod/blob/master/img/webuild3-1.png?raw=true" width = "1000" div align= 'center' /><br><br/>
 
 <img src="https://github.com/Fy1307/IMGofSixGod/blob/master/img/webuild3-2.png?raw=true" width = "1000" div align= 'center' /><br><br/>
 
-##### 3.2 使用Docsify编辑网页
+#### 3.2 使用Docsify编辑网页
 ● 在安装Docsify之前请确定已经安装了nodejs。  
 安装配置教程：[Window版](https://www.cnblogs.com/wanpi/p/16119433.html)  ; 
 [IOS版](https://blog.csdn.net/qq_45220508/article/details/122972391)
@@ -60,7 +60,7 @@ index.html的代码内容如下：
 
 <img src="https://github.com/Fy1307/IMGofSixGod/blob/master/img/webuild3-5.png?raw=true" width = "1000" div align= 'center' /><br><br/>
 
-##### 3.4 网页图片资源管理
+#### 3.4 网页图片资源管理
 为了减小网页文件所占空间，我们采用GitHub+PicGo的方式将文件上传至我们的图片仓库，并在网页文件中直接引用图片地址。
 ● 建立一个图片仓库，并生成一个给PicGo的密钥
 
@@ -73,14 +73,14 @@ index.html的代码内容如下：
 <img src="https://github.com/Fy1307/IMGofSixGod/blob/master/img/usepic.png?raw=true" width = "1000" div align= 'center' /><br><br/>
 
 ### 4  问题解决
-##### 4.1 Docsify在Macbook(M1)的下载和运行问题
+#### 4.1 Docsify在Macbook(M1)的下载和运行问题
 ● 安装权限问题
 如果在安装时出现问题，请尝试在安装语句之前加上"sudo "。
 
 ● 终端配置问题
 部分macbook的配置文件可能比较与众不同，本人的Macbook就不幸中彩了。遇到"zsh: command not found"这样的错误提示，可参考这个教程尝试解决：[解决教程](https://www.jianshu.com/p/64c175476acc)
 
-##### 4.2 网页文件结构变化后上传github的问题
+#### 4.2 网页文件结构变化后上传github的问题
 GitHub Desktop不能对所有改变一次性提交，因此必须单选才能提交。
 <img src="https://github.com/Fy1307/IMGofSixGod/blob/master/img/problem2.png?raw=true" width = "1000" div align= 'center' /><br><br/>
 上传后需要等待片刻才能在GitHub上看到网页的改变。
