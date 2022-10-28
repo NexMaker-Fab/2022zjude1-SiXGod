@@ -1,4 +1,6 @@
-<div align='center' ><font size='24'>目录</font></div>
+<div align= 'center'>
+  <img src="https://github.com/Fy1307/IMGofSixGod/blob/master/img/logo.jpg?raw=true" width = "200"/>
+</div>
 
 * 团队信息
   * [团队介绍](teamintro/member.md)
@@ -9,6 +11,7 @@
     * [网页美化](webbulid/webbeautify.md)
   * CAD Design
     * [Fusion360](CAD/fusion360.md)
+    * [其他CAD软件介绍](CAD/OtherCAD.md)
   * Arduino Basic
   * CAD
   * 3D打印

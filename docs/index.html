@@ -8,8 +8,9 @@
   <title>SIXGOD</title>
   <link rel="icon" type="image/png" href="https://github.com/Fy1307/IMGofSixGod/
   blob/master/img/Favicon.png?raw=true" >
+  <!-- Sidebar: folder   -->
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar-folder.min.css" />
-  
+
   <!-- Sidebar: arrows
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar.min.css" />
   -->
@@ -18,17 +19,14 @@
   -->
 </head>
 <body>
-  <nav>
-    <a href="#/teamintro/member">团队信息</a>
-    <a href="#/webbulid/webbuild">平时作业</a>
-    <a href="#/webbuild/webbuild.md">期末项目</a>
-  </nav>
-  <div id="app"></div>
-  
+  <div id="app"></div> 
   <script>
     window.$docsify = {
-      search: 'auto',
-
+      search: {//添加搜索功能，中文和英文文档同时搜索
+              paths: 'auto',
+              placeholder: {
+              '/':'🔍 搜索',
+              },},//增加搜索框
       loadSidebar: true,
       alias: {
         '/.*/_sidebar.md': '/_sidebar.md',
@@ -40,7 +38,7 @@
   }
   </script>
   <!-- Code that references the Docsify search plug-in -->
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+  <!--<script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>-->
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
 
 
@@ -49,3 +47,10 @@
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
 </body>
 </html>
+
+<!-- no 2 serch boxes 
+<style>
+  .sidebar .search:nth-child(2){
+    display: none;
+  }
+</style>-->

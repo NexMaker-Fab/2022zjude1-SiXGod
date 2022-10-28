@@ -3,11 +3,11 @@
 本组采用 GitHub+Docsify 的方式构建了我们的网页。Docsify是一个简易的文档网站生成器，GitHub则提供了免费且适合团队合作的网页文件管理服务。
 
 ### 1  工具准备和环境配置
-● 首先你要有自己的GitHub账号  
+● 首先你要有自己的[GitHub](https://github.com)账号  
 
-● 下载Git（Mac用户不需要）、GitHub Desktop、VScode和Picgo  
+● 下载[Git（Mac用户不需要）](https://blog.csdn.net/weixin_47638941/article/details/120632890)、[GitHub Desktop](https://desktop.github.com)、[VScode](https://baijiahao.baidu.com/s?id=1737611420111454761&wfr=spider&for=pc)和[Picgo](https://blog.csdn.net/weixin_42837669/article/details/126279327)  
 
-● 下载nodejs以配置环境  
+● 下载[nodejs](https://www.runoob.com/nodejs/nodejs-install-setup.html)以配置环境  
 
 
 ### 2  网页设置
@@ -68,11 +68,6 @@ index.html的代码内容如下：
   -->
 </head>
 <body>
-  <nav>
-    <a href="#/teamintro/member">团队信息</a>
-    <a href="#/webbulid/webbuild">平时作业</a>
-    <a href="#/webbuild/webbuild.md">期末项目</a>
-  </nav>>
   <div id="app"></div>
   <script>
     window.$docsify = {
@@ -80,7 +75,6 @@ index.html的代码内容如下：
         coverpage: true,
         onlyCover: true,
   }
-
   </script>
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
 </body>
@@ -105,7 +99,10 @@ index.html的代码内容如下：
 
 ● 调用图片网址
 在图片仓库获得需要引用的图片地址就可以在md文档中插入图片了。
-<img src="https://github.com/Fy1307/IMGofSixGod/blob/master/img/usepic.png?raw=true" width = "1000" div align= 'center' /><br><br/>
+```html
+<img src="https://github.com/Fy1307/IMGofSixGod/blob/master/img/webuild3-1.png?raw=true" width = "1000" div align= 'center' /><br><br/>
+<img src="https://github.com/Fy1307/IMGofSixGod/blob/master/img/webuild3-2.png?raw=true" width = "1000" div align= 'center' /><br><br/>
+```
 
 ### 4  问题解决
 #### 4.1 Docsify在Macbook(M1)的下载和运行问题
@@ -113,12 +110,13 @@ index.html的代码内容如下：
 如果在安装时出现问题，请尝试在安装语句之前加上"sudo "。
 
 ● 终端配置问题
-部分macbook的配置文件可能比较与众不同，本人的Macbook就不幸中彩了。遇到"zsh: command not found"这样的错误提示，可参考这个教程尝试解决：[解决教程](https://www.jianshu.com/p/64c175476acc)
+<img src="https://github.com/Fy1307/IMGofSixGod/blob/master/img/zsh.png?raw=true" width = "1000" div align= 'center' /><br><br/>
+部分macbook的配置文件可能比较与众不同，本人的Macbook就不幸中彩了。  
+遇到"zsh: command not found"这样的错误提示，可参考这个教程尝试解决：[解决教程](https://www.jianshu.com/p/64c175476acc)
 
 #### 4.2 网页文件结构变化后上传github的问题
-GitHub Desktop不能对所有改变一次性提交，因此必须单选才能提交。
-<img src="https://github.com/Fy1307/IMGofSixGod/blob/master/img/problem2.png?raw=true" width = "1000" div align= 'center' /><br><br/>
-上传后需要等待片刻才能在GitHub上看到网页的改变。
+GitHub Desktop中的commit键是灰色，是因为你还没有给出本次修改的描述。上传后需要等待片刻才能在GitHub上看到网页的改变。
+<img src="https://github.com/Fy1307/IMGofSixGod/blob/master/img/upload.png?raw=true" width = "1000" div align= 'center' /><br><br/>
 
 ### 5  参考
 [总体流程学习](https://www.nexmaker.com)  
