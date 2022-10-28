@@ -84,7 +84,7 @@ search: 'auto'
 </div>
 <br></br>
 
-### 5  参考
+### 参考
 [封面美化方式](https://www.jianshu.com/p/38b6f67c6837)  
 [侧边栏折叠](https://github.com/iPeng6/docsify-sidebar-collapse)  
 [全文检索方法](http://docsify.tb1043.com/#/?id=全文检索)  

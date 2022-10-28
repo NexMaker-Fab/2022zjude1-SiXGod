@@ -118,7 +118,7 @@ index.html的代码内容如下：
 GitHub Desktop中的commit键是灰色，是因为你还没有给出本次修改的描述。上传后需要等待片刻才能在GitHub上看到网页的改变。
 <img src="https://github.com/Fy1307/IMGofSixGod/blob/master/img/upload.png?raw=true" width = "1000" div align= 'center' /><br><br/>
 
-### 5  参考
+### 参考
 [总体流程学习](https://www.nexmaker.com)  
 [Markdown语法](https://www.runoob.com/markdown/md-link.html)  
 [Docsify官方文档](https://docsify.js.org/#/)

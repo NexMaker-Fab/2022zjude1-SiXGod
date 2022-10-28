@@ -51,5 +51,5 @@ Fusion 360 是一款基于远程服务的三维建模、CAD、CAM、CAE 和 PCB 
 <iframe src="https://myhub.autodesk360.com/ue28cacf9/shares/public/SH35dfcQT936092f0e4347a820aaecd0cf0f?mode=embed" width="800" height="600" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe><br><br/>
 
 
-### 2  参考
+### 参考
 [Fusion360活塞建模教程](https://www.youtube.com/watch?v=62XqdYv7pWs)  

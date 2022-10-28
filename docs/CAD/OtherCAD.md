@@ -8,5 +8,5 @@ ProE是另一款三维造型软件，且占有着重要地位。在本科阶段�
 
 <img src="https://github.com/Fy1307/IMGofSixGod/blob/master/img/ProE.jpg?raw=true" width = "1000" div align= 'center' /><br><br/>
  
-### 2 参考  
+### 参考  
 [ProE介绍](https://baike.baidu.com/reference/49241726c08j20UHV0JtDD2doRGdAkLi_wFFRSTJR8ap1lom0i0AnlPhgYQVKk2NVeZ10_UHWo3DL_2xmjkbe2dTbZCuW2aGAk)
