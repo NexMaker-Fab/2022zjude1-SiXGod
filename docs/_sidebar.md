@@ -15,13 +15,10 @@
   * Arduino Basic
     * [初试Processing](Processing/FirstProcessign.md)
     * [Arduino&Processing](Arduino/Arduino.md)
-  * CAD
-  * 3D打印
 
 * 期末作业
-  * topic
-  * innovation
-  * market
-  * how to design
-  * how to make
-  * SDGs
+  * [主题和创新点](Final/topic.md)
+  * [设计方案](Final/designScheme.md)
+  * [功能实现](Final/how_to_make.md)
+  * [Demo](Final/Demo.md)
+
