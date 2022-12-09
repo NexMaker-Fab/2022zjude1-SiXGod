@@ -1,19 +1,19 @@
-# Processign初试
-Processing是一种具有革命前瞻性的新兴计算机语言，它的概念是在电子艺术的环境下介绍程序语言，并将电子艺术的概念介绍给程序设计师。  
-它是 Java 语言的延伸，并支持许多现有的 Java 语言架构，不过在语法上简易许多，并具有许多贴心及人性化的设计。
+# First Try of Processign
+Processing is a revolutionary and forward-looking new computer language. Its concept is to introduce programming languages in the environment of electronic art, and introduce the concept of electronic art to programmers. 
+It is an extension of the Java language and supports many of the existing Java language architectures, but it is much simpler in syntax and has many intimate and user-friendly designs.
 
-### 1 第一个交互demo的诞生
-● 抱着复制粘贴的心态，去OpenProcessing偷创意代码，找到了一个蜘蛛爬爬的样例如下：    
+### 1 The first interactive demo was born
+● With the mindset of copy and paste, I went to OpenProcessing to steal the creative code and found a spider crawling sample such as the following:
 
 ![](https://raw.githubusercontent.com/Fy1307/IMGofSixGod/master/img/Pcs1.gif)
 
-● 但是很遗憾源码是用不明语言编译的了，无法copy。只能自己动手。  
+● Unfortunately, the source code is compiled in an unknown language and cannot be copied. I had to do it myself.
 <div align= 'left'>
     <img src="https://github.com/Fy1307/IMGofSixGod/blob/master/img/pcs2.png?raw=true" width = "1000" />
 </div>
 <br></br>
 
-● 将源代码的意思理解后，重新写成processing的语法，如下：  
+● After understanding the meaning of the source code, I rewrote the processing syntax as follows:
 ```java
 int STEP = 40;//矩阵点的步长
 
@@ -46,22 +46,22 @@ void draw() {
 ```
 
 
-### 2 问题解决  
-● dist()函数的传参只能是float类型，过于局限，我们重载一下函数，使其适用于int类型。函数如下：  
+### 2 Solutions for problems  
+● Function dist() can only pass parameters of type float, which is too limited. Let's overload the function to work with int. The functions are as follows:
 ```java
 int dist(int x1, int y1,int x2, int y2) {//重载函数dist()
 return int(dist(float(x1),float(y1),float(x2),float(y2)));
 }
 ```
 
-● 每次循环draw()时要刷新一下画布，要不然画面就会往上叠。  
+● Refresh the canvas every time you loop through draw(), or the screen will stack up.
 ```java
 background(0);//刷新画布
 ```
-### 3 最终效果
+### 3 Final results
 <img src="https://raw.githubusercontent.com/Fy1307/IMGofSixGod/master/img/pscdemo.GIF"/>
 
 
-### 参考
-[Processing介绍](https://baike.baidu.com/item/Processing/378062?fr=aladdin)  
-[代码参考来源](https://openprocessing.org)
+### Reference
+[Processing Introduction](https://baike.baidu.com/item/Processing/378062?fr=aladdin)  
+[Code reference](https://openprocessing.org)

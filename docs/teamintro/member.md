@@ -1,50 +1,50 @@
-# Hi，大家好！这里是SixGod👋
+# Hello！This is SixGod👋
 
-### 六神——来自浙软的神秘力量✌️
+### SixGod——A mystical power for ZJU-CST✌️
 
 ----------
 
-# SixGod成员图鉴
+# Members of SixGod
 
-### 张怡卿：发际线凹凹还爱扎高的憨堡包🍔
+### Zhang Yiqing：A defender who resists a receding hairline🍔
 
 <img src="https://github.com/Fy1307/IMGofSixGod/blob/master/img/zyq.jpg?raw=true" width = "350" height = "350" div align= 'center' />
 
-> 联系方式：zhangyq_0915@163.com
+> Contact Information：zhangyq_0915@163.com
 
 ----------
-### 冯源：薯条小朋友的互联网妈咪🍟
+### Feng Yuan：Internet mommy of a kid named Chip🍟
 
 <img src="https://github.com/Fy1307/IMGofSixGod/blob/master/img/fy.JPG?raw=true" width = "350" height = "350" div align= 'center' />
 
-> 联系方式：fyuan2000@outlook.com 
+> Contact Information：fyuan2000@outlook.com 
 
 ----------
 
-### 倪雪儿：一个爱狗人士🐶
+### Ni Xue'er：A dog lover🐶
 
 <img src="https://github.com/Fy1307/IMGofSixGod/blob/master/img/nxe.jpg?raw=true" width = "350" height = "350" div align= 'center' />
 
-> 联系方式：15355081400
+> Contact Information：15355081400
 
 ----------
 
-### 黄时超：篮球、健身爱好者🏀
+### Huang Shichao：Basketball and fitness enthusiast🏀
 <img src="https://github.com/Fy1307/IMGofSixGod/blob/master/img/hsc.jpg?raw=true" width = "350" height = "350" div align= 'center' />
 
-> 联系方式：18970939502
+> Contact Information：18970939502
 
 ----------
 
-### 王翌诚：这个人很懒~什么都没写。
+### Wang Yicheng：This guy is lazy ~ didn't write anything.
 <img src="https://github.com/Fy1307/IMGofSixGod/blob/master/img/wyc.jpg?raw=true" width = "350" height = "350" div align= 'center' />
 
-> 联系方式：3512858238@qq.com
+> Contact Information：3512858238@qq.com
 
 ----------
 
-### 罗成：爱学习的小哥哥一枚呀～🙆🏻‍♂️
+### Luo Cheng：A little brother who loves to learn～🙆🏻‍♂️
 
 <img src="https://github.com/Fy1307/IMGofSixGod/blob/master/img/lc.jpg?raw=true" width = "350" height = "350" div align= 'center' />
 
-> 联系方式：1157445099@qq.com
+> Contact Information：1157445099@qq.com

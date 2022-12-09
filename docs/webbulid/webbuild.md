@@ -1,21 +1,21 @@
-# 网页构建流程
+# Web Page Construction Process
 
-本组采用 GitHub+Docsify 的方式构建了我们的网页。Docsify是一个简易的文档网站生成器，GitHub则提供了免费且适合团队合作的网页文件管理服务。
+We built our web page using GitHub+Docsify. Docsify is a simple document site generator, and GitHub provides a free and team-friendly web file management service.
 
-### 1  工具准备和环境配置
-● 首先你要有自己的[GitHub](https://github.com)账号  
+### 1  Tool preparation and environment configuration
+● First, you need to have your own[GitHub](https://github.com)account  
 
-● 下载[Git（Mac用户不需要）](https://blog.csdn.net/weixin_47638941/article/details/120632890)、[GitHub Desktop](https://desktop.github.com)、[VScode](https://baijiahao.baidu.com/s?id=1737611420111454761&wfr=spider&for=pc)和[Picgo](https://blog.csdn.net/weixin_42837669/article/details/126279327)  
+● Download [Git（The user of Mac doesn't have to）](https://blog.csdn.net/weixin_47638941/article/details/120632890)、[GitHub Desktop](https://desktop.github.com)、[VScode](https://baijiahao.baidu.com/s?id=1737611420111454761&wfr=spider&for=pc) and [Picgo](https://blog.csdn.net/weixin_42837669/article/details/126279327)  
 
-● 下载[nodejs](https://www.runoob.com/nodejs/nodejs-install-setup.html)以配置环境  
+● Download [nodejs](https://www.runoob.com/nodejs/nodejs-install-setup.html) to configure the environment  
 
 
-### 2  网页设置
-#### 2.1 建立团队仓库  
-建立一个属于团队的仓库，这一步由老师完成。  
+### 2  Web page Setup
+#### 2.1 Building a team warehouse  
+Set up a warehouse that belongs to the team, this step is completed by the teacher. 
 
-#### 2.2 网页部署 
-在GitHub上部署属于团队的网页，在这一步我们获得了一个空白网页和它的链接。
+#### 2.2 Web page deployment 
+Deploy the team's web page on GitHub, where we get a blank web page and a link to it.
 <img src="https://github.com/Fy1307/IMGofSixGod/blob/master/img/webuild2-1.png?raw=true" width = "1000" div align= 'center' /><br><br/>
 
 <img src="https://github.com/Fy1307/IMGofSixGod/blob/master/img/webuild2-2.png?raw=true" width = "1000" div align= 'center' /><br><br/>
@@ -23,34 +23,34 @@
 <img src="https://github.com/Fy1307/IMGofSixGod/blob/master/img/webuild2-3.png?raw=true" width = "1000" div align= 'center' /><br><br/>
 
 
-### 3  本地设置
-#### 3.1 克隆网页文件到本地
-每次修改网页文件内容之前都需要先将最新版的网页文件克隆到本地，GitHub Desktop提供了这一功能，让操作变得非常简单。
+### 3 Local settings
+#### 3.1 Clone the web page file locally
+Every time you modify the content of the web file, you need to clone the latest version of the web file to the local. GitHub Desktop provides this function, so that the operation becomes very simple.
 <img src="https://github.com/Fy1307/IMGofSixGod/blob/master/img/webuild3-1.png?raw=true" width = "1000" div align= 'center' /><br><br/>
 
 <img src="https://github.com/Fy1307/IMGofSixGod/blob/master/img/webuild3-2.png?raw=true" width = "1000" div align= 'center' /><br><br/>
 
-#### 3.2 使用Docsify编辑网页
-● 在安装Docsify之前请确定已经安装了nodejs。  
-安装配置教程：[Window版](https://www.cnblogs.com/wanpi/p/16119433.html)  ; 
-[IOS版](https://blog.csdn.net/qq_45220508/article/details/122972391)
+#### 3.2 Edit web pages using Docsify
+● Make sure you have nodejs installed before installing Docsify.  
+Installation and Configuration tutorial: [Windows](https://www.cnblogs.com/wanpi/p/16119433.html)  ; 
+[IOS](https://blog.csdn.net/qq_45220508/article/details/122972391)
 
-● 使用命令行语句在终端安装Docsify
+● Install Docsify in the terminal using command-line statements
 > npm i docsify-cli -g
 
-● 初始化环境
-首先定位到网页文件的本地位置,在该位置初始化环境.
-> cd +本地位置  
+● Initialization
+First navigate to the local location of the web page file and initialize the environment at that location.
+> cd + Local location  
 
 > docsify init ./docs
 
-● 运行和预览
+● Run and preview
 > docsify serve docs  
 
-然后就可以在 http://localhost:3000 预览你的网页啦！
+Then you can preview your page at http://localhost:3000 
 
-● 设置index.html和侧边栏
-index.html的代码内容如下：
+● Set index.html and sidebar
+The code for index.html is as follows:
 
 ```html
 <!DOCTYPE html>
@@ -81,44 +81,77 @@ index.html的代码内容如下：
 </html>
 ```
 
-然后在docs文件夹里新建一个空文件".nojekyll"，它的作用是防止docsify忽略"_"开头的的文件。此后新建"_sidebar.md"，在里面输入侧边栏的内容。
+Then create an empty file ".nojekyll" in your docs folder. This will prevent docsify from ignoring files starting with "_". Then create "_sidebar.md" and enter the contents of the sidebar inside. The sidebar code is as follows:
 
-##### 3.3 上传到GitHub
-用GitHub Desktop上传变更并在GitHub上查看网页结果。
+```html
+<div align= 'center'>
+  <img src="https://github.com/Fy1307/IMGofSixGod/blob/master/img/logo.jpg?raw=true" width = "200"/>
+</div>
+
+* Team Information
+  * [Team Introduction](teamintro/member.md)
+  
+* Assignment
+  * Project Management
+    * [Web Page Construction](webbulid/webbuild.md)
+    * [Web Page Beautification](webbulid/webbeautify.md)
+  * CAD Design
+    * [Fusion360](CAD/fusion360.md)
+    * [Introduction to Other CAD Softwares](CAD/OtherCAD.md)
+  * Arduino Basic
+    * [First Try of Processing](Processing/FirstProcessign.md)
+    * [Arduino & Processing](Arduino/Arduino.md)
+
+* Final Project
+  * [Design Theme](Final/topic.md)
+  * [User Research](Final/UserResearch.md)
+  * [Innovation Points](Final/InnovationPoints.md)
+  * [Market Research](Final/MarketResearch.md)
+  * [Design Scheme](Final/designScheme.md)
+  * [Experimentation](Final/how_to_make.md)
+  * [Key Technology](Final/KeyTechnology.md)
+  * [Demo](Final/Demo.md)
+
+
+
+```
+
+##### 3.3 Upload to GitHub
+Upload changes using GitHub Desktop and view the web results on GitHub.
 <img src="https://github.com/Fy1307/IMGofSixGod/blob/master/img/webuild3-4.png?raw=true" width = "1000" div align= 'center' /><br><br/>
 
 <img src="https://github.com/Fy1307/IMGofSixGod/blob/master/img/webuild3-5.png?raw=true" width = "1000" div align= 'center' /><br><br/>
 
-#### 3.4 网页图片资源管理
-为了减小网页文件所占空间，我们采用GitHub+PicGo的方式将文件上传至我们的图片仓库，并在网页文件中直接引用图片地址。
-● 建立一个图片仓库，并生成一个给PicGo的密钥
+#### 3.4 Web image resource management
+In order to reduce the space occupied by web files, we use GitHub+PicGo to upload files to our image warehouse, and refer to the image address directly in the web file.
+● Create an image repository and generate a key for PicGo.
 
-● 配置PicGo
-密钥可由GitHub生成，具体参见[密钥生成](https://www.nexmaker.com/doc/1projectmanage/imageuploadservice.html)
+● Config PicGo
+The key can be generated by GitHub, see details[key generation](https://www.nexmaker.com/doc/1projectmanage/imageuploadservice.html)
 <img src="https://github.com/Fy1307/IMGofSixGod/blob/master/img/PicGoConfig.png?raw=true" width = "1000" div align= 'center' /><br><br/>
 
-● 调用图片网址
-在图片仓库获得需要引用的图片地址就可以在md文档中插入图片了。
+● Call the image URL
+To insert the image in the md document, get the image address that you need to reference in the image repository.
 ```html
 <img src="https://github.com/Fy1307/IMGofSixGod/blob/master/img/webuild3-1.png?raw=true" width = "1000" div align= 'center' /><br><br/>
 <img src="https://github.com/Fy1307/IMGofSixGod/blob/master/img/webuild3-2.png?raw=true" width = "1000" div align= 'center' /><br><br/>
 ```
 
-### 4  问题解决
-#### 4.1 Docsify在Macbook(M1)的下载和运行问题
-● 安装权限问题
-如果在安装时出现问题，请尝试在安装语句之前加上"sudo "。
+### 4  Problem solving
+#### 4.1 Docsify download and run issues on Macbook(M1)
+● Installation permission issues
+If you have problems installing, try adding "sudo "before the installation statement.
 
-● 终端配置问题
+● Terminal Configuration issues
 <img src="https://github.com/Fy1307/IMGofSixGod/blob/master/img/zsh.png?raw=true" width = "1000" div align= 'center' /><br><br/>
-部分macbook的配置文件可能比较与众不同，本人的Macbook就不幸中彩了。  
-遇到"zsh: command not found"这样的错误提示，可参考这个教程尝试解决：[解决教程](https://www.jianshu.com/p/64c175476acc)
+Some MacBooks may have different profiles.
+If you encounter an error such as "zsh: command not found", you can use this tutorial to try to solve it: [solution](https://www.jianshu.com/p/64c175476acc)
 
-#### 4.2 网页文件结构变化后上传github的问题
-GitHub Desktop中的commit键是灰色，是因为你还没有给出本次修改的描述。上传后需要等待片刻才能在GitHub上看到网页的改变。
+#### 4.2 The problem of uploading Github after changing the structure of the webpage file
+The commit key in GitHub Desktop is gray because you haven't given a description of the change. You need to wait a while after uploads to see the changes on GitHub.
 <img src="https://github.com/Fy1307/IMGofSixGod/blob/master/img/upload.png?raw=true" width = "1000" div align= 'center' /><br><br/>
 
-### 参考
-[总体流程学习](https://www.nexmaker.com)  
-[Markdown语法](https://www.runoob.com/markdown/md-link.html)  
-[Docsify官方文档](https://docsify.js.org/#/)
+### Reference
+[Overall process learning](https://www.nexmaker.com)  
+[Markdown syntax](https://www.runoob.com/markdown/md-link.html)  
+[Docsify official document](https://docsify.js.org/#/)

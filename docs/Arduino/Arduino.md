@@ -1,12 +1,12 @@
-# Arduino& Processing
+# Arduino & Processing
 
-任务：用arduino的摇杆控制processing的“蜘蛛”行走。
+Task: Use arduino's rocker to control processing's "spider" to walk.
 
-### 1  学会使用摇杆
+### 1  Learn how to use a rocker
 <img src="https://github.com/Fy1307/IMGofSixGod/blob/master/img/Frame_10.jpg?raw=true" width = "1000" div align= 'center' /><br><br/>
 
 ```arduino
-#define pinX  A0  //声明端口
+#define pinX  A0  //Declare port
 #define pinY  A1
 int value1 = 0;
 int value2 = 0;
@@ -14,44 +14,44 @@ int x;
 
 void setup()
 {
-  pinMode(pinX, INPUT); //设置A0 A1两个端口为输入
+  pinMode(pinX, INPUT); //Declare ports set A0 and A1 as inputs
   pinMode(pinY, INPUT);
-  Serial.begin(9600);  //设置波特率 两端波特率一致方可通信
+  Serial.begin(9600);  //Set the baud rate on both ends of the same baud rate can communicate
 }
 
 void loop()
 {
   value1 = analogRead(pinX); 
   value2 = analogRead(pinY);
-  Serial.print(value1);  //读取x轴上传的值
+  Serial.print(value1);  //Read the values uploaded on the X-axis
   Serial.print(",");
-  Serial.println(value2); //读取y轴上传的值
+  Serial.println(value2); //Read the values uploaded on the Y-axis
   delay(100);
 }
 ```
 
-依靠上述代码，可以在串口监视器中读到这样的数据。  
+Depending on the above code, you can read such data in the serial port monitor.
 
 <img src="https://github.com/Fy1307/IMGofSixGod/blob/master/img/data_arduino.png?raw=true" width = "1000" div align= 'center' /><br><br/>
 
-操纵摇杆从一端打到另一端，可以令x或y轴输出范围在0~1023的值。当摇杆处于中立位，会输出500+的中间值，如上图。  
+By manipulating the rocker from one end to the other, the x or y axis output ranges from 0 to 1023. When the stick is in the neutral position, it outputs a median value of 500+, as shown above.
 
 
-### 2  让processing读取arduino传来的数据
+### 2  Let processing read the data from the arduino 
 
-关键代码如下，有这些代码就可以实现双方的通信：  
+The key code is as follows, with which the two parties can communicate:
 
 ```java
 import processing.serial.*;
-Serial myPort;         // 建立一个端口
-int input;              // 声明一个变量，赋给它从arduino接收到的数据
+Serial myPort;         // Set up a port
+int input;              // Declare a variable assigned to the data it receives from the arduino
 
 void setup() {
-    port = new Serial(this,"COM3",9600); //建立一个通道和速率，必须和Arduino一致
+    port = new Serial(this,"COM3",9600); //Set up a channel and a rate that must be consistent with the Arduino
 }
 
 void draw() {
-   int input = port.read();  //将串口收到数据给input
+   int input = port.read();  //The serial port receives data to the input
 }
 ```
 
@@ -59,25 +59,25 @@ void draw() {
 
 void setup()
 {
-  Serial.begin(9600);  //设置波特率，两端波特率一致方可通信
+  Serial.begin(9600);  //Set the baud rate, the same baud rate on both ends can communicate
 }
 
 void loop()
 {
-	Serial.write();  //将arduino内的数据上传给processing 
+	Serial.write();  //Upload data from the arduino to processing
   delay(100);
 }
 ```
 
-### 3  让蜘蛛跟随摇杆移动
+### 3  Let the spider follow the rocker
 
-起初，我的想法是将x轴的数据赋给processing中的变量x，将y轴的数据赋给processing中的变量y，再使用一个map映射函数，将x，y的值（原本应该是0~1023）限定为画布的长宽值，然后用变量x, y控制蜘蛛的位置。
+At first, my idea is to assign the X-axis data to the variable x in processing, the Y-axis data to the variable y in processing, and then use a map mapping function to limit the value of x and y (originally should be 0-1023) to the length and width of the canvas, and then use the variables x and y to control the position of the spider.
 
 <img src="https://github.com/Fy1307/IMGofSixGod/blob/master/img/Arduino3.png?raw=true" width = "1000" div align= 'center' /><br><br/>
 
-但是这种方法的问题在于，arduino会连续输出x, y的值，processing是分辨不出来的，如上图。（当然肯定是有办法解决的，只是我基础薄弱T T，没有好的办法）因此最后使用的方法是：首先在arduino中读取摇杆的值，设定8种状态（对应8种移动方式），再由processing读取状态，慢慢地更改x, y的值。
+However, the problem with this method is that arduino will continuously output the values of x and y, which processing cannot distinguish, as shown in the figure above. (Of course, there must be a way to solve it, but I have a weak foundation T T, there is no good way) So the last method used is: first, read the value of the rocker in arduino, set 8 states (corresponding to 8 moving ways), then read the state by processing, and slowly change the value of x and y.
 
-最后代码如下：
+The final code is as follows:
 
 ```arduino
 import processing.serial.*;
@@ -188,5 +188,46 @@ void loop()
 
 ```
 
-### 3  效果实现
+### 3  Final result
 <img src="https://github.com/Fy1307/IMGofSixGod/blob/master/img/Arduino_Result.GIF?raw=true" width = "1000" div align= 'center' /><br><br/>
+
+
+### 4  Problems & Solutions
+- problem description
+    
+    When using a Mac computer to connect to Arduino, you need to use the docking station. When running, you need to change and confirm the "port", but the processing code will report an error after entering and running. When it's time to switch to a Win computer, there's no problem, and you can run and interact normally.
+    
+    The specific error content is as follows:
+    
+    ```cpp
+    A library used by this sketch relies on native code that is not available.
+    UnsatisfiedLinkError: Could not load the jssc library: Couldn't load library library jssc
+    Could not run the sketch (Target VM failed to initialize).
+    For more information, read Help → Troubleshooting.
+    ```
+    <div align= 'left'>
+    <img src="https://github.com/Fy1307/IMGofSixGod/blob/master/img/PAPro1.png?raw=true" width = "1000" />
+    </div>
+    <br></br>
+    
+- Solution：
+    <div align= 'left'>
+    <img src="https://github.com/Fy1307/IMGofSixGod/blob/master/img/PAPro2.png?raw=true" width = "1000" />
+    </div>
+    <br></br>
+    
+    - Step 1: Click the URL link [https://github.com/java-native/jssc/releases](https://github.com/java-native/jssc/releases)
+    - Step 2: Download the file [jssc-2.9.4.jar](https://github.com/java-native/jssc/releases/download/v2.9.4/jssc-2.9.4.jar)
+    - Step 3: Go to the folder "Applications" - find processing - right click "Show Package Contents"
+    
+    <div align= 'left'>
+    <img src="https://github.com/Fy1307/IMGofSixGod/blob/master/img/PAPro3.png?raw=true" width = "1000" />
+    </div>
+    <br></br>
+    
+    - Step 4: Follow the following path /Contents/Java/modes/java/libraries/serial/library/ and find the original jssc.jar and replace it with the latest version jssc-2.9.4.jar that you just downloaded
+    - Step 5: Restart processing, you can solve the problem
+  
+- Reference
+    
+    [https://github.com/java-native/jssc/releases](https://github.com/java-native/jssc/releases)  
