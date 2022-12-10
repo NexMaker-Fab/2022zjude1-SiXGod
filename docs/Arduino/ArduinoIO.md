@@ -29,7 +29,11 @@
     <br></br>
         
     - Debug code, run and test
-- **Run result (named "Video _ Display ambient temperature and humidity")**
+- **Run result**
+    <div align= 'left'>
+    <img src="https://raw.githubusercontent.com/Fy1307/IMGofSixGod/master/img/temperature.GIF"/>
+    </div>
+    <br></br>
 - **code:**
     
     ```cpp
@@ -97,7 +101,12 @@
         
     - Debug code, run and test
   
-- **Run result (named "Video _ Near the object, servo motor turns; Stay away, don't turn ")**
+- **Run result**
+    <div align= 'left'>
+    <img src="https://raw.githubusercontent.com/Fy1307/IMGofSixGod/master/img/chaoshengbo.GIF"/>
+    </div>
+    <br></br>
+  
 - **code:**
     
     ```cpp
