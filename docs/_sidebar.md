@@ -10,8 +10,7 @@
     * [Web Page Construction](webbulid/webbuild.md)
     * [Web Page Beautification](webbulid/webbeautify.md)
   * CAD Design
-    * [Fusion360](CAD/fusion360.md)
-    * [Fusion360_new](CAD/fusion360_2.md)
+    * [Fusion360](CAD/fusion360_2.md)
     * [Introduction to Other CAD Softwares](CAD/OtherCAD.md)
   * Arduino Basic
     * [Input & Output of Arduino Application](Arduino/ArduinoIO.md)
@@ -24,7 +23,7 @@
 
 
 * Final Project
-  * [Design Theme](Final/topic.md)
+  * [Design Goal](Final/topic.md)
   * [User Research](Final/UserResearch.md)
   * [Innovation Points](Final/InnovationPoints.md)
   * [Market Research](Final/MarketResearch.md)
