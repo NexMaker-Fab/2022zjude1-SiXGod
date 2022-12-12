@@ -1,28 +1,21 @@
-# 设计方案
+# Design Scheme
 
-### 1 流程图
-    
+### 1 Design Scheme
+
+Natural Song (tentative name) is a children's music experience product based on plant interaction. It is designed for children users, so that children can feel the sounds from the "hometown" of plants at home. By collecting the capacitance value of the plant, the device can detect when the plant is being petted and play the guided voice and corresponding nature music, allowing children to develop empathy for nature while having fun.
+
 <div align= 'left'>
-    <img src="https://github.com/Fy1307/IMGofSixGod/blob/master/img/flow.png?raw=true" width = "1000" />
+    <img src="https://github.com/Fy1307/IMGofSixGod/blob/master/img/Frame.jpg?raw=true" width = "1000" />
 </div>
 
-### 2 草图设计
-- 方案一 
+### 2 User Flow
 
 <div align= 'left'>
-    <img src="https://github.com/Fy1307/IMGofSixGod/blob/master/img/sketch1.png?raw=true" width = "1000" />
+    <img src="https://github.com/Fy1307/IMGofSixGod/blob/master/img/Flow.jpg?raw=true" width = "1000" />
 </div>
 
-- 方案二 
+### 3 Sketch
 
 <div align= 'left'>
-    <img src="https://github.com/Fy1307/IMGofSixGod/blob/master/img/sketch2.png?raw=true" width = "1000" />
-</div> 
-
-- 方案三 
-
-<div align= 'left'>
-    <img src="https://github.com/Fy1307/IMGofSixGod/blob/master/img/sketch3.png?raw=true" width = "1000" />
-</div>  
-
-外形方案待定，需要综合考虑内部结构和使用体验后做决定。
+    <img src="https://github.com/Fy1307/IMGofSixGod/blob/master/img/Sketch.jpg?raw=true" width = "1000" />
+</div>
