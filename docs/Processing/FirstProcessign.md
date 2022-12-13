@@ -14,44 +14,44 @@ It is an extension of the Java language and supports many of the existing Java l
 <br></br>
 
 - After understanding the meaning of the source code, I rewrote the processing syntax as follows:
+  
 ```java
-int STEP = 40;//矩阵点的步长
+    int STEP = 40;//矩阵点的步长
+    int StepRound(int i) {//四舍五入至最近的步长
+        return int(round(float(i) / STEP) * STEP);
+    }
 
-int StepRound(int i) {//四舍五入至最近的步长
-    return int(round(float(i) / STEP) * STEP);
-}
+    void setup() {
+        size(800, 800);//画布大小
+        stroke(255);//白色描边
+    }
 
-void setup() {
-    size(800, 800);//画布大小
-    stroke(255);//白色描边
-}
+    int dist(int x1, int y1,int x2, int y2) {//重载函数dist()
+        return int(dist(float(x1),float(y1),float(x2),float(y2)));
+    }
 
-int dist(int x1, int y1,int x2, int y2) {//重载函数dist()
-    return int(dist(float(x1),float(y1),float(x2),float(y2)));
-}
-
-void draw() {
-    background(0);//刷新画布
-    int x = mouseX,y = mouseY;//鼠标取点
-    ellipse(x, y,STEP / 4 ,STEP / 4);//蜘蛛身体
-    for (int i = StepRound(x) - STEP * 2; i <= StepRound(x) + STEP * 2; i += STEP) {//矩阵打点
-        for (int j = StepRound(y) - STEP * 2; j <= StepRound(y) + STEP * 2; j += STEP) {
-            int leg = dist(x, y, i, j);//计算连线距离
-            ellipse(i, j,(STEP * 3 - leg) / STEP + 1,(STEP * 3 - leg) / STEP + 1);
-            if (leg > STEP && leg < STEP * 2) //连线距离判断
-                line(x, y, i, j);//蜘蛛脚
+    void draw() {
+        background(0);//刷新画布
+        int x = mouseX,y = mouseY;//鼠标取点
+        ellipse(x, y,STEP / 4 ,STEP / 4);//蜘蛛身体
+        for (int i = StepRound(x) - STEP * 2; i <= StepRound(x) + STEP * 2; i += STEP) {//矩阵打点
+            for (int j = StepRound(y) - STEP * 2; j <= StepRound(y) + STEP * 2; j += STEP) {
+                int leg = dist(x, y, i, j);//计算连线距离
+                ellipse(i, j,(STEP * 3 - leg) / STEP + 1,(STEP * 3 - leg) / STEP + 1);
+                if (leg > STEP && leg < STEP * 2) //连线距离判断
+                    line(x, y, i, j);//蜘蛛脚
+            }
         }
     }
-}
 ```
 
 
 ### 2 Solutions for problems  
 - Function dist() can only pass parameters of type float, which is too limited. Let's overload the function to work with int. The functions are as follows:
 ```java
-int dist(int x1, int y1,int x2, int y2) {//重载函数dist()
-return int(dist(float(x1),float(y1),float(x2),float(y2)));
-}
+    int dist(int x1, int y1,int x2, int y2) {//重载函数dist()
+    return int(dist(float(x1),float(y1),float(x2),float(y2)));
+    }
 ```
 
 - Refresh the canvas every time you loop through draw(), or the screen will stack up.
