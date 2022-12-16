@@ -2,7 +2,7 @@
 Processing is a revolutionary and forward-looking new computer language. Its concept is to introduce programming languages in the environment of electronic art, and introduce the concept of electronic art to programmers. 
 It is an extension of the Java language and supports many of the existing Java language architectures, but it is much simpler in syntax and has many intimate and user-friendly designs.
 
-### 1 The first interactive demo was born
+### 1  The first interactive demo was born
 - With the mindset of copy and paste, I went to OpenProcessing to steal the creative code and found a spider crawling sample such as the following:
 
 ![](https://raw.githubusercontent.com/Fy1307/IMGofSixGod/master/img/Pcs1.gif)
@@ -13,9 +13,10 @@ It is an extension of the Java language and supports many of the existing Java l
 </div>
 <br></br>
 
-- After understanding the meaning of the source code, I rewrote the processing syntax as follows:
+- After understanding the meaning of the source code, I rewrote the processing syntax as follows. 
   
-```java
+### 2  Code
+```jsx
     int STEP = 40;//矩阵点的步长
     int StepRound(int i) {//四舍五入至最近的步长
         return int(round(float(i) / STEP) * STEP);
@@ -46,7 +47,7 @@ It is an extension of the Java language and supports many of the existing Java l
 ```
 
 
-### 2 Solutions for problems  
+### 3  Solutions for problems  
 - Function dist() can only pass parameters of type float, which is too limited. Let's overload the function to work with int. The functions are as follows:
 ```java
     int dist(int x1, int y1,int x2, int y2) {//重载函数dist()
@@ -58,7 +59,7 @@ It is an extension of the Java language and supports many of the existing Java l
 ```java
 background(0);//刷新画布
 ```
-### 3 Final results
+### 4  Final results
 <img src="https://raw.githubusercontent.com/Fy1307/IMGofSixGod/master/img/pscdemo.GIF"/>
 
 

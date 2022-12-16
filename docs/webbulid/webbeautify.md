@@ -36,17 +36,18 @@
   }
 </script>
 <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
-
 <!-- plugins -->
 <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
 ```
 
 - Add the link in the style you like in index.html head 
 Arrow style：  
+
 ```html
   <!-- Sidebar: arrows  -->
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar.min.css" />
 ```  
+
 Folder Style：  
 ```html
   <!-- Sidebar: folder   -->

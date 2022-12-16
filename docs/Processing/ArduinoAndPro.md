@@ -5,7 +5,7 @@ Task: Use arduino's rocker to control processing's "spider" to walk.
 ### 1  Learn how to use a rocker
 <img src="https://github.com/Fy1307/IMGofSixGod/blob/master/img/Frame_10.jpg?raw=true" width = "1000" div align= 'center' /><br><br/>
 
-```arduino
+```jsx
 #define pinX  A0  //Declare port
 #define pinY  A1
 int value1 = 0;
@@ -41,7 +41,7 @@ By manipulating the rocker from one end to the other, the x or y axis output ran
 
 The key code is as follows, with which the two parties can communicate:
 
-```java
+```jsx
 import processing.serial.*;
 Serial myPort;         // Set up a port
 int input;              // Declare a variable assigned to the data it receives from the arduino
@@ -55,7 +55,7 @@ void draw() {
 }
 ```
 
-```arduino
+```jsx
 
 void setup()
 {
@@ -77,9 +77,10 @@ At first, my idea is to assign the X-axis data to the variable x in processing, 
 
 However, the problem with this method is that arduino will continuously output the values of x and y, which processing cannot distinguish, as shown in the figure above. (Of course, there must be a way to solve it, but I have a weak foundation T T, there is no good way) So the last method used is: first, read the value of the rocker in arduino, set 8 states (corresponding to 8 moving ways), then read the state by processing, and slowly change the value of x and y.
 
-The final code is as follows:
+### 4  Code
 
-```arduino
+```jsx
+/*For Processing*/
 import processing.serial.*;
 Serial port;
 int v =1;
@@ -148,7 +149,8 @@ void draw() {
 }
 ```
 
-```arduino
+```jsx
+/*For Arduino*/
 #define pinX  A0  //声明端口
 #define pinY  A1
 #define left 480
@@ -188,11 +190,11 @@ void loop()
 
 ```
 
-### 3  Final result
+### 5  Final result
 <img src="https://github.com/Fy1307/IMGofSixGod/blob/master/img/Arduino_Result.GIF?raw=true" width = "1000" div align= 'center' /><br><br/>
 
 
-### 4  Problems & Solutions
+### 6  Problems & Solutions
 - problem description
     
     When using a Mac computer to connect to Arduino, you need to use the docking station. When running, you need to change and confirm the "port", but the processing code will report an error after entering and running. When it's time to switch to a Win computer, there's no problem, and you can run and interact normally.
