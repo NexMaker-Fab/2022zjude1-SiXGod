@@ -41,22 +41,17 @@ Blinker is a professional and easy-to-use IoT solution that provides server, app
   <br></br>
 
 - Blinker app Set
-  <div align= 'left'>
-    <img src="https://github.com/Fy1307/IMGofSixGod/blob/master/img/app1.png?raw=true" width = "1000" />
-  </div>
+  <figure class="half">
+      <img src="https://github.com/Fy1307/IMGofSixGod/blob/master/img/app1.png?raw=true" width = "400">
+      <img src="https://github.com/Fy1307/IMGofSixGod/blob/master/img/app2.png?raw=true" width = "400">
+  </figure>
   <br></br>
-  <div align= 'left'>
-    <img src="https://github.com/Fy1307/IMGofSixGod/blob/master/img/app2.png?raw=true" width = "1000" />
-  </div>
-  <br></br>
-    <div align= 'left'>
-    <img src="https://github.com/Fy1307/IMGofSixGod/blob/master/img/app3.png?raw=true" width = "1000" />
-  </div>
-  <br></br>
-    <div align= 'left'>
-    <img src="https://github.com/Fy1307/IMGofSixGod/blob/master/img/app4.png?raw=true" width = "1000" />
-  </div>
-  <br></br>
+    <figure class="half">
+      <img src="https://github.com/Fy1307/IMGofSixGod/blob/master/img/app3.png?raw=true" width = "400">
+      <img src="https://github.com/Fy1307/IMGofSixGod/blob/master/img/app4.png?raw=true" width = "400">
+  </figure>
+
+
 
 - Implementation code
 
@@ -169,4 +164,4 @@ void loop()
 ```
 
 - Achieving results
-
+<iframe src="//player.bilibili.com/player.html?aid=861294368&bvid=BV1TV4y1A7dt&cid=926063390&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
