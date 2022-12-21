@@ -118,7 +118,7 @@ Fusion 360 is a remote services-based 3D modeling, CAD, CAM, CAE and PCB softwar
     <br></br>
 
 - **Engineering Drawing**
-    <iframe src="[https://myhub.autodesk360.com/ue28cacf9/shares/public/SH35dfcQT936092f0e4306430011aadf5b5b?mode=embed](https://myhub.autodesk360.com/ue28cacf9/shares/public/SH35dfcQT936092f0e4306430011aadf5b5b?mode=embed)" width="800" height="600" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" frameborder="0"></iframe>
+  <iframe src="https://myhub.autodesk360.com/ue28cacf9/shares/public/SH35dfcQT936092f0e4306430011aadf5b5b?mode=embed" width="800" height="600" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
 - **Final Result**
   - The dynamic picture of the piston
@@ -148,10 +148,7 @@ Fusion 360 is a remote services-based 3D modeling, CAD, CAM, CAE and PCB softwar
     </div>
     <br></br>
 
-    <div align= 'left'>
-    <img src="https://github.com/Fy1307/IMGofSixGod/blob/master/img/fu19.png?raw=true" width = "1000" />
-    </div>
-    <br></br>
+ 
     
     (2) Click “create sketch” button and choose the YZ plane to sketch.
     
@@ -163,14 +160,14 @@ Fusion 360 is a remote services-based 3D modeling, CAD, CAM, CAE and PCB softwar
     (3) Draw a sketch, add constraints, and input preset parameters in the corresponding position according to the sketch requirements.
 
     <div align= 'left'>
-    <img src="https://github.com/Fy1307/IMGofSixGod/blob/master/img/fu21.png?raw=true" width = "1000" />
+    <img src="https://github.com/Fy1307/IMGofSixGod/blob/master/img/fu22.1.png?raw=true" width = "1000" />
     </div>
     <br></br>
     
     (4) Click "Finish Sketch" in the upper right corner.
 
     <div align= 'left'>
-    <img src="https://github.com/Fy1307/IMGofSixGod/blob/master/img/fu22.1.png?raw=true" width = "1000" />
+    <img src="https://github.com/Fy1307/IMGofSixGod/blob/master/img/fu22.png?raw=true" width = "1000" />
     </div>
     <br></br>   
     
@@ -196,18 +193,13 @@ Fusion 360 is a remote services-based 3D modeling, CAD, CAM, CAE and PCB softwar
     (7) When parameter data is changed, it can be seen that the model will make local changes according to the corresponding data changes. **Therefore, parametric modeling is an important means in product design, which is conducive to improving our work efficiency.**
 
     <div align= 'left'>
-    <img src="https://github.com/Fy1307/IMGofSixGod/blob/master/img/fu26.png?raw=true" width = "1000" />
-    </div>
-    <br></br>
-
-    <div align= 'left'>
     <img src="https://github.com/Fy1307/IMGofSixGod/blob/master/img/fu27.1.png?raw=true" width = "1000" />
     </div>
     <br></br>   
 
 - **Final Result**  
   - Engineering Drawing
-     <iframe src="[https://myhub.autodesk360.com/ue28cacf9/shares/public/SH35dfcQT936092f0e43214aa8fe8f65f96d?mode=embed](https://myhub.autodesk360.com/ue28cacf9/shares/public/SH35dfcQT936092f0e43214aa8fe8f65f96d?mode=embed)" width="800" height="600" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" frameborder="0"></iframe>
+    <iframe src="https://myhub.autodesk360.com/ue28cacf9/shares/public/SH35dfcQT936092f0e43214aa8fe8f65f96d?mode=embed" width="800" height="600" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
   - 3-dimensional view
     <iframe src="https://myhub.autodesk360.com/ue28cacf9/shares/public/SH35dfcQT936092f0e433682bf332e7333e7?mode=embed" width="800" height="600" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
