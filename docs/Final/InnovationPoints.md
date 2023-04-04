@@ -16,5 +16,8 @@
 
 · White noise is used to show the "home" sounds of plants, anthropomorphizing plants and making empathy more natural.
 
+### 3 Innovation 3: Children's musical enlightenment
+· Map the area and location of the touch to the pitch of the timbre of different instruments to help children with musical initiation.
+· Use musical changes to increase the interest of plant interaction and arouse children's interest in music and instruments.
 
 
